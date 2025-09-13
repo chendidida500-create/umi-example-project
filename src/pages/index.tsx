@@ -1,11 +1,24 @@
 import React from 'react';
+import WelcomeCard from '@/components/WelcomeCard';
 
 const HomePage: React.FC = () => {
   return (
     <div>
       <h1>Welcome to Umi.js Example Project</h1>
-      <p>This is a basic example page created with Umi.js</p>
-      <p>Visit the <a href="/about">About</a> page to learn more.</p>
+      
+      <WelcomeCard 
+        title="Getting Started" 
+        description="This is a basic example page created with Umi.js" 
+      />
+      
+      <WelcomeCard 
+        title="Learn More" 
+        description="Visit the About page to learn more about this project" 
+      />
+      
+      <p>
+        <a href="/about">About this project</a>
+      </p>
     </div>
   );
 };
