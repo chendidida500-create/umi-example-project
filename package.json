@@ -1,0 +1,27 @@
+{
+  "name": "umi-example-project",
+  "version": "1.0.0",
+  "description": "An example Umi.js project created through GitHub API",
+  "main": "index.js",
+  "scripts": {
+    "start": "umi dev",
+    "build": "umi build",
+    "test": "umi test"
+  },
+  "keywords": [
+    "umi",
+    "react",
+    "example"
+  ],
+  "author": "GitHub API User",
+  "license": "MIT",
+  "dependencies": {
+    "umi": "^4.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0"
+  }
+}
